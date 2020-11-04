@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+    background: $color-blanco;
+    border-bottom: 1px solid $color-negro;
+    label {
+        display: none;
+        width: 35px;
+        height: 30px;
+        padding: 10px;
+        border-right: 1px solid $color-negro;
+        color: #4E94AB;
+    }
+}
+header label:hover {
+    cursor: pointer;
+    background: rga(0,0,0,0.3);
+}
+#btn-menu{
+    display: none;
+}
+.menu {
+    ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+    }
+    li {
+        border-right: 1px solid $color-negro;
+        a {
+            display: block;
+            padding: 15px 20px;
+            color: $color-negro;
+            text-decoration: none;
+        }
+    }
+}
+.menu li:hover {
+    background: rgba(0,0,0,0.3);
+}

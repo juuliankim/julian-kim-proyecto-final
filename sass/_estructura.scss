@@ -1,0 +1,17 @@
+body {
+    background-color: $color-blanco;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.linea {
+    border: solid 2px $color-principal;
+}

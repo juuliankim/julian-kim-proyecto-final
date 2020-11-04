@@ -1,0 +1,14 @@
+main div div form {
+    text-align: justify;
+    input {
+        border: solid 1px $color-principal;
+    }
+    textarea {
+        border: solid 1px $color-principal;
+    }
+}
+#caja-contacto {
+    background-color: $color-fondo-claro;
+    padding: 50px 400px 0px 400px;
+    border: solid 2px $color-principal;
+}

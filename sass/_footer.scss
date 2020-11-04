@@ -1,0 +1,21 @@
+footer {
+    background-color: $color-footer;
+    .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    margin: 20px;
+    }
+}
+.copy{
+    font-size: 15px;
+}
+.redes-sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    img {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,23 @@
+main div section form {
+    padding-left: 450px;
+    text-align: justify;
+    h4 {
+    font-size: 20px;
+    text-decoration: underline;
+    }
+    input {
+        border: solid 1px $color-principal;
+    }
+    textarea {
+        border: solid 1px $color-principal;
+    }
+    select {
+        border: solid 1px $color-principal;
+    }
+}
+#tasa-caja {
+    background-color: $color-fondo-claro;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: solid 2px $color-principal;
+}

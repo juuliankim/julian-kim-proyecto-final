@@ -1,5 +1,5 @@
 body {
-  background-color: #ffff; }
+  background-color: #dad8d8; }
 
 h1 {
   text-align: center;
@@ -10,7 +10,8 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  text-align: center; }
+  text-align: center;
+  margin: auto; }
 
 .linea {
   border: solid 2px #2a289c; }
@@ -56,9 +57,35 @@ header label:hover {
 .menu li:hover {
   background: rgba(0, 0, 0, 0.3); }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
+  main section img {
+    width: 100%;
+    height: 400px;
+    width: 680px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  main section p {
+    width: 580px;
+    padding-left: 15px;
+    padding-right: 10px; }
+  main .contenedor {
+    width: 1140px; } }
+
+@media (min-width: 992px) {
   main {
     grid-area: main; }
+    main section img {
+      width: 100%;
+      height: 400px;
+      width: 680px;
+      padding-left: 15px;
+      padding-right: 15px; }
+    main section p {
+      width: 580px;
+      padding-left: 15px;
+      padding-right: 10px; }
+    main .contenedor {
+      width: 960px; }
     main #cuerpo-main {
       display: grid;
       grid-template-areas: "titulo" "parrafo imagen" "imagen parrafo" "parrafo imagen";
@@ -69,20 +96,16 @@ header label:hover {
     main #caja-pf {
       padding-left: 200px;
       padding-right: 200px; }
-    main section img {
-      width: 100%;
-      height: 400px;
-      width: 680px;
-      padding-left: 15px;
-      padding-right: 15px; }
-    main section p {
-      width: 580px;
-      padding-left: 15px;
-      padding-right: 10px; } }
+    main #form-tasa {
+      padding-left: 450px; } }
 
 @media (max-width: 768px) {
   header label {
     display: block; }
+  main .contenedor {
+    width: 720px; }
+  main #tasa {
+    width: 100%; }
   .menu {
     position: absolute;
     background: #ffff;
@@ -94,8 +117,15 @@ header label:hover {
     .menu li {
       border-bottom: 1px solid #000000;
       border-top: 1px solid #000000; }
+  #caja-contacto {
+    width: auto;
+    text-align: justify; }
   #btn-menu:checked ~ .menu {
     margin: 0; } }
+
+@media (min-width: 576) {
+  .contenedor {
+    width: 540px; } }
 
 section img {
   width: 100%;
@@ -124,24 +154,25 @@ footer {
 #main-fondo {
   background-color: #56b9e0; }
 
-main div section form {
-  padding-left: 450px;
-  text-align: justify; }
-  main div section form h4 {
-    font-size: 20px;
-    text-decoration: underline; }
-  main div section form input {
-    border: solid 1px #2a289c; }
-  main div section form textarea {
-    border: solid 1px #2a289c; }
-  main div section form select {
-    border: solid 1px #2a289c; }
+main div section form h4 {
+  font-size: 20px;
+  text-decoration: underline; }
+
+main div section form input {
+  border: solid 1px #2a289c; }
+
+main div section form textarea {
+  border: solid 1px #2a289c; }
+
+main div section form select {
+  border: solid 1px #2a289c; }
 
 #tasa-caja {
   background-color: #56b9e0;
   padding-bottom: 10px;
   padding-top: 10px;
-  border: solid 2px #2a289c; }
+  border: solid 2px #2a289c;
+  text-align: justify; }
 
 #titulo-principal {
   color: #2a289c;
@@ -165,3 +196,29 @@ main div div form {
   background-color: #56b9e0;
   padding: 50px 400px 0px 400px;
   border: solid 2px #2a289c; }
+
+main div span {
+  text-align: center; }
+
+.caja-ventas-alquilar {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap; }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s; }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.foto {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  max-width: 400px;
+  max-height: 600px;
+  background-size: cover;
+  background-position: center; }

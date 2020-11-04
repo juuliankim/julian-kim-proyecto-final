@@ -1,5 +1,5 @@
 body {
-    background-color: $color-blanco;
+    background-color: $color-fondo-claro2;
 }
 h1 {
     text-align: center;
@@ -11,6 +11,7 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    margin: auto;
 }
 .linea {
     border: solid 2px $color-principal;

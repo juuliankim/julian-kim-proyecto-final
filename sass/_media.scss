@@ -56,6 +56,10 @@
             padding-left: 200px;
             padding-right: 200px;
         }
+        #caja-contacto {
+            padding-left: 200px;
+            padding-right: 200px;
+        }
         #form-tasa {
             padding-left: 450px;
         }
@@ -86,10 +90,6 @@
             border-bottom: 1px solid $color-negro;
             border-top: 1px solid $color-negro;
         }
-    }
-    #caja-contacto {
-        width: auto;
-        text-align: justify;
     }
     #btn-menu:checked ~ .menu {
         margin: 0;

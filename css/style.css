@@ -11,7 +11,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  margin: auto; }
+  margin: 1px; }
 
 .linea {
   border: solid 2px #2a289c; }
@@ -96,6 +96,9 @@ header label:hover {
     main #caja-pf {
       padding-left: 200px;
       padding-right: 200px; }
+    main #caja-contacto {
+      padding-left: 200px;
+      padding-right: 200px; }
     main #form-tasa {
       padding-left: 450px; } }
 
@@ -117,9 +120,6 @@ header label:hover {
     .menu li {
       border-bottom: 1px solid #000000;
       border-top: 1px solid #000000; }
-  #caja-contacto {
-    width: auto;
-    text-align: justify; }
   #btn-menu:checked ~ .menu {
     margin: 0; } }
 
@@ -197,8 +197,8 @@ main div div form {
 
 #caja-contacto {
   background-color: #56b9e0;
-  padding: 50px 400px 0px 400px;
-  border: solid 2px #2a289c; }
+  border: solid 2px #2a289c;
+  padding-top: 20px; }
 
 main div span {
   text-align: center; }
